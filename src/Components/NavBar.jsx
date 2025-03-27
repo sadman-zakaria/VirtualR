@@ -35,7 +35,7 @@ const NavBar = () => {
                 {/* mobile menu */}
 
                 <div className='lg:hidden md:flex flex-col justify-end'>
-                   <button onClick={toggleNavBar}>
+                   <button className='cursor-pointer' onClick={toggleNavBar}>
                       {
                         MobileOpen ? <X/> : <Menu/>
                       }
