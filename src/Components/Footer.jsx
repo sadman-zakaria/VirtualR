@@ -39,6 +39,11 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+
+            <div className=' flex justify-around mt-5 border-t border-neutral-600'>
+                <p className='text-center mt-2'>@Copy Right 2025</p>
+                <p className='text-center mt-2'> by <span className='text-blue-300'> VirtualR</span>  </p>
+            </div>
         </footer>
     </>
   )
